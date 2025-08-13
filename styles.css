@@ -161,3 +161,225 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+.articles {
+    height: 1224px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.articles-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #095682;
+    font-weight: 700;
+}
+
+.articles-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articles-bottom-left {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EBF5FA;
+    background-color: #EBF5FA;
+    border-radius: 6px;
+    gap: 20px;
+    width: 310px;
+    height: 864px;
+    padding-top: 10px;
+}
+
+.font-weight {
+    font-weight: 700;
+}
+
+.articles-bottom-left-title {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #095682;
+    padding-bottom: 10px;
+}
+
+.articles-bottom-left-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.articles-bottom-left-menu-text {
+    width: 250px;
+    font-size: 16px;
+}
+
+.articles-bottom-left-link {
+    padding-left: 10px;
+    font-size: 16px;
+    color: #095682;
+    color: #095682;
+    text-decoration: underline;
+}
+
+.articles-bottom-right {
+    width: 970px;
+    height: 1060px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.articles-bottom-right-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.articles-bottom-right-card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.articles-bottom-right-card-main-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles-bottom-right-card-main-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.articles-bottom-right-card-main-title-text {
+    font-size: 20px;
+    color: #095682;
+    font-weight: 700;
+}
+
+.articles-bottom-right-card-main-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.articles-bottom-right-card-main-bottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.articles-bottom-right-card-main-bottom-right-button {
+    width: 186px;
+    height: 50px;
+    background-color: #9DCCE4;
+    border: 1px solid #9DCCE4;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.interesting {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 788px;
+    align-items: center;
+}
+
+.interesting-main-card-img {
+
+}
+
+.interesting-title {
+    font-size: 32px;
+    color: #095682;
+    font-weight: 700;
+}
+
+.interesting-main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.interesting-main-card {
+    width: 420px;
+    height: 574px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid #9DCCE4;
+    border-radius: 6px;
+}
+
+.interesting-main-card-main {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.interesting-main-card-title {
+    font-size: 20px;
+    color: #095682;
+    font-weight: 700;
+    width: 300px;
+    height: 75px;
+}
+
+.interesting-main-card-text {
+    font-size: 15px;
+    width: 350px;
+    height: 120px;
+}
+
+.interesting-main-card-link {
+    font-size: 15px;
+    color: #095682;
+    text-decoration: underline;
+    height: 50px;
+}
+
+.interesting-main-card-bottom {
+    height: 100px;
+    width: 100%;
+    background-color: #999999;
+}
+
+.interesting-main-card-link-bottom {
+    font-size: 15px;
+    color: #095682;
+    text-decoration: underline;
+}
+
+.interesting-main-card-text-bottom {
+    font-size: 15px;
+    color: #095682;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.interesting-bottom {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #9DCCE4;
+    color: #095682;
+    font-size: 15px;
+    font-weight: 700;
+}
